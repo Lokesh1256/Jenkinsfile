@@ -1,4 +1,4 @@
 # Jenkinsfile
 
 sh'git '
-read
+read test
