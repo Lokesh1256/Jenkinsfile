@@ -5,14 +5,13 @@ pipeline {
         stage('Build') {
             steps {
                 build job: 'DemoWhenDeveloperCommitsCodeAutoRunJenkinsfile', quietPeriod: 0
+                echo 'builded'
                 echo 'Building..'
-                sh 'ls -la'
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing..'
-                sh 'ls -la'
             }
         }
         stage('Deploy') {
