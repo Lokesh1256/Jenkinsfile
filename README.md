@@ -1,3 +1,4 @@
 # Jenkinsfile
 
 sh'git '
+read
